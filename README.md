@@ -32,9 +32,11 @@ Contains the datasets used in the project as downloaded from the FAO website for
    
    _ [FAOSTAT2018.csv](./data/FAOSTAT2018.csv): Dataset of protein and calorie availability for each country.
    
-   _ [FAOSTAT_pib_sta_2018.csv](./data/FAOSTAT_pib_sta_2018.csv): dataset of political stability and absence violence and gdp for each country.
+   _ [FAOSTAT_pib_sta_2018.csv](./data/FAOSTAT_pib_sta_2018.csv): Dataset of political stability and absence violence and gdp for each country.
      
-   _ [FAOSTAT_volaille_18.csv](./data/FAOSTAT_volaille_18.csv): dataset of poultry import and feed for each country.
+   _ [FAOSTAT_volaille_18.csv](./data/FAOSTAT_volaille_18.csv): Dataset of poultry import and feed for each country.
+
+   _ [df.csv](./data/df.csv): Cleaned and finalized database ready for exploration
 
 - [notebooks](./notebooks):
   
