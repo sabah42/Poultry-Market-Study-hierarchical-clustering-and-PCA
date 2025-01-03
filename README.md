@@ -46,11 +46,11 @@ contains the jupyter notebook used in the analysis:
 
 Contains graphical outputs:
 
-   _ [cercle.png](visualizations./cercle.png): PCA visualization of the first two components.
+   _ [cercle.png](./visualizations/cercle.png): PCA visualization of the first two components.
     
-   _ [dendrogram.png](visualizations./dendrogram.png): Dendrogram showing hierarchical clustering.
+   _ [dendrogram.png](./visualizations/dendrogram.png): Dendrogram showing hierarchical clustering.
     
-   _ [acp.png](visualizations./acp.png): the projection of individuals onto the first two components.
+   _ [acp.png](./visualizations/acp.png): the projection of individuals onto the first two components.
 
 
 ### Dataset
