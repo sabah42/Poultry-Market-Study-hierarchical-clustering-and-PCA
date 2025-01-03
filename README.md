@@ -6,8 +6,12 @@
  - [Project Structure ](#project-structure)
  - [Dataset](#dataset)
  - [Tools and Libraries](#tools-and-libraries)
- - [Data Cleaning/Preparation](#data-cleaning/preparation)
- - [Key Results/Findings](#key-results/findings)
+ - [Data Cleaning/Preparation](#data-cleaningpreparation)
+ - [Analysis Methodologie](#analysis-methodologie)
+   - [Hierarchical Clustering](#hierarchical-clustering)
+   - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+   
+ - [Key Results/Findings](#key-resultsfindings)
  - [Recommendations](#recommendations)
 
 ###   Project Description 
@@ -21,25 +25,33 @@ This project produces a market study for poultry exports in 2 stages:
 The aim is to help the company target appropriate countries with high poultry consumption for international expansion.
  ###  Project Structure
 - data/ :
+  
 Contains the datasets used in the project as downloaded from the FAO website for the year 2018:
- - FAOSTAT_pop_18_08.csv : Dataset of the population of each country.
- - FAOSTAT2018.csv : Dataset of protein and calorie availability for each country.
- - FAOSTAT_pib_sta_2018.csv : dataset of political stability and absence violence and gdp for each country.
- - FAOSTAT_volaille_18.csv : dataset of poultry import and feed for each country.
+
+   _ FAOSTAT_pop_18_08.csv : Dataset of the population of each country.
+   
+   _ FAOSTAT2018.csv : Dataset of protein and calorie availability for each country.
+   
+   _ FAOSTAT_pib_sta_2018.csv : dataset of political stability and absence violence and gdp for each country.
+     
+   _ FAOSTAT_volaille_18.csv : dataset of poultry import and feed for each country.
 
 - notebooks/ :
   
 contains the jupyter notebook used in the analysis:
 
-P5_02_code.ipynb : Analyse des données et clustering.
+ P5_02_code.ipynb :data analysis and clustering.
 
--visualizations/:
+- visualizations/:
 
 Contains graphical outputs:
 
-cercle.png: PCA visualization of the first two components.
-dendrogram.png: Dendrogram showing hierarchical clustering.
-acp.png: the projection of individuals onto the first two components.
+   _ cercle.png: PCA visualization of the first two components.
+    
+   _ dendrogram.png: Dendrogram showing hierarchical clustering.
+    
+   _ acp.png: the projection of individuals onto the first two components.
+
 
 ### Dataset
 
@@ -82,9 +94,8 @@ In the initial data preparation phase, we performed the following tasks:
 2. Handling missing values.
 3. Data cleaning and formatting.
    
-### Key Results/Findings
-
-#### 1. Hierarchical Clustering:
+### Analysis Methodologie 
+####  Hierarchical Clustering
    
 The dendrogram revealed 5 main clusters:
 
@@ -96,26 +107,26 @@ Cluster 3/4:  Rich and relatively stable countries.
 
 Cluster 5: Countries with low population growth.
 
-From the centroids of each cluster we find that cluster 3 and  4 countries consume more the protéin than other  countries.
+####  Principal Component Analysis (PCA)
 
-#### 2. Principal Component Analysis (PCA):
 PCA reduced the dataset to two main components, explaining 70.9% of the variance.
 
 Component 1: The possibility of buying and consuming the animal proteins.
 
 Component 2:  Shortage of poultry production in relation to demand.
 
-After projecting the individuals onto the first factorial plane, we find that:
 
-_ clusters 3 and 4 countries are poultry consumers.
+### Key Results/Findings
 
-_ cluster 3 countries have a shortage of poultry production.
+- The centroids of the groups obtained by the hierarchical clustering indicate that countries in groups 3 and 4 consume more protein than other countries.
+- The PCA revealed that Group 3 and 4 countries are poultry consumers, but that Group 3 countries suffer from a shortage of poultry production.
 
 ### Recommendations
 
-Based on the analysis, we recommend the following actions:
+Based on the findings, we recommend the following actions:
 
 - Prioritize poultry exports to the Netherlands, the UK and Germany.
+  
 - In a second phase, extend exports to the rest of Europe.
 
 
