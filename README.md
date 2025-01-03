@@ -24,33 +24,33 @@ This project produces a market study for poultry exports in 2 stages:
 
 The aim is to help the company target appropriate countries with high poultry consumption for international expansion.
  ###  Project Structure
-- data/ :
+- [data](./data) :
   
 Contains the datasets used in the project as downloaded from the FAO website for the year 2018:
 
-   _ FAOSTAT_pop_18_08.csv : Dataset of the population of each country.
+   _ [FAOSTAT_pop_18_08.csv](./data/FAOSTAT_pop_18_08.csv): Dataset of the population of each country.
    
-   _ FAOSTAT2018.csv : Dataset of protein and calorie availability for each country.
+   _ [FAOSTAT2018.csv](./data/FAOSTAT2018.csv): Dataset of protein and calorie availability for each country.
    
-   _ FAOSTAT_pib_sta_2018.csv : dataset of political stability and absence violence and gdp for each country.
+   _ [FAOSTAT_pib_sta_2018.csv](./data/FAOSTAT_pib_sta_2018.csv): dataset of political stability and absence violence and gdp for each country.
      
-   _ FAOSTAT_volaille_18.csv : dataset of poultry import and feed for each country.
+   _ [FAOSTAT_volaille_18.csv](./data/FAOSTAT_volaille_18.csv): dataset of poultry import and feed for each country.
 
-- notebooks/ :
+- [notebooks](./notebooks):
   
 contains the jupyter notebook used in the analysis:
 
- P5_02_code.ipynb :data analysis and clustering.
+  [P5_02_code.ipynb](./notebooks/P5_02_code.ipynb):data analysis and clustering.
 
-- visualizations/:
+- [visualizations](./visualizations):
 
 Contains graphical outputs:
 
-   _ cercle.png: PCA visualization of the first two components.
+   _ [cercle.png](visualizations./cercle.png): PCA visualization of the first two components.
     
-   _ dendrogram.png: Dendrogram showing hierarchical clustering.
+   _ [dendrogram.png](visualizations./dendrogram.png): Dendrogram showing hierarchical clustering.
     
-   _ acp.png: the projection of individuals onto the first two components.
+   _ [acp.png](visualizations./acp.png): the projection of individuals onto the first two components.
 
 
 ### Dataset
