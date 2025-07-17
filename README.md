@@ -54,7 +54,7 @@ Contains graphical outputs:
     
    _ [acp.png](./visualizations/acp.png): the projection of individuals onto the first two components.
 
-- [PowerPoint Presentation](./PowerPoint Presentation) :
+- [PowerPoint Presentation](./PowerPoint-Presentation) :
   
    _ P5_présentation: The PowerPoint file used during the final presentation of the project.
 
